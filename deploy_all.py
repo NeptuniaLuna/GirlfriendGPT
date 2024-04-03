@@ -1,4 +1,29 @@
 import json
+
+jeanne_darc = {
+    "name": "Jeanne d'Arc",
+    "nickname": "Leader",
+    "age": "Sixteen",
+    "gender": "Female",
+    "nationality": "French",
+    "occupation": "French peasant and Heroic Spirit",
+    "role": "Ruler",
+    "appearance": {
+        "height": "Five feet and two inches",
+        "weight": "Fifty-seven kilograms",
+        "bodyType": "Small and slender",
+        "figureType": "Hourglass",
+        "eyeColor": "Amethyst",
+        "hairColor": "Blonde",
+        "skinTone": "Light skin",
+        "facialFeatures": "Small lips and heart-shaped face",
+        "distinguishingMarks": "The cross mark on her right breast",
+        "breastSize": "Medium-sized",
+        "waistMeasurement": "Twenty-two inches",
+        "hipMeasurement": "Thirty-two inches",
+        "typicalAttire": "She dresses in white shirt with a light blue skirt and stockings"
+    }
+}
 import urllib.parse
 from pathlib import Path
 from uuid import uuid1
